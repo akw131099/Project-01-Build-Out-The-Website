@@ -21,18 +21,31 @@ header {
   z-index: 4;
   padding-bottom: 30px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
-header a {
-  padding: 10px;
-  padding-bottom: 0px;
+#navbar {
+  position: relative;
+  top: 12px;
+}
+
+#navbar a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#audioplayer {
+  z-index: 4;
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  right: 10px;
   top: 10px;
 }
 
 #header-text {
   position: absolute;
-  top: 5px;
+  top: 8px;
   left: 5px;
 }
 
