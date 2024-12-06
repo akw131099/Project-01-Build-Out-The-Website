@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,5 +9,21 @@ body {
 }
 
 header {
+  position: fixed;
   background-color: papayawhip;
+  width: 100%;
+  border: solid black;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fixedtext {
+  position: fixed;
+  top: 450px;
+  left: 30px;
+  background-color: papayawhip;
+  border: solid black;
 }
