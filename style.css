@@ -83,8 +83,6 @@ header {
 }
 
 footer a {
-  display: flex;
-  justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -92,4 +90,16 @@ footer a {
 footer a:hover {
   color: green;
   border: solid green;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#insta {
+  position: absolute;
+  left: 5px;
+  border: 0;
 }
