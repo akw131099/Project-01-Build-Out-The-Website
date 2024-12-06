@@ -25,3 +25,5 @@ I tried to implement <button> elements, however I found them much more awkward t
 I often find positioning to be a bit confusing and overwhelming, as there are a lot of small factors to keep in mind, as well as a lot of options.
 
 developer.mozilla.org was extremely useful to me, as I used it when researching how to use z-index as well as refreshing my memory on using <audio> elements, which I originally learned to use through Youtube tutorials before starting the course, specifically the Youtube channel "Bro Code"
+
+the audio used is my own, taken from a folder of throwaway demos.
