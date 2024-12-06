@@ -35,6 +35,11 @@ header {
   padding-right: 30px;
 }
 
+#navbar a:hover {
+  color: green;
+  border: solid green;
+}
+
 #audioplayer {
   z-index: 4;
   position: absolute;
@@ -42,6 +47,7 @@ header {
   height: 30px;
   right: 10px;
   top: 10px;
+  border: solid black;
 }
 
 #header-text {
@@ -79,4 +85,11 @@ header {
 footer a {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a:hover {
+  color: green;
+  border: solid green;
 }
