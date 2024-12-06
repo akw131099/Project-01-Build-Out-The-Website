@@ -2,10 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 body {
   background-color: papayawhip;
+}
+
+img {
+  border: solid black;
 }
 
 header {
@@ -13,6 +18,7 @@ header {
   background-color: papayawhip;
   width: 100%;
   border: solid black;
+  z-index: 4;
 }
 
 header nav {
@@ -26,4 +32,27 @@ header nav {
   left: 30px;
   background-color: papayawhip;
   border: solid black;
+  z-index: 3;
+}
+
+#image-container,
+#image-container2,
+#image-container3,
+#image-container4 {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  z-index: 3;
+  background-color: papayawhip;
+  border: solid black;
+  bottom: 10px;
+  right: 10px;
+  width: 300px;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
 }
